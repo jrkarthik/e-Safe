@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF893FC617C783420081C192 /* save.png in Resources */ = {isa = PBXBuildFile; fileRef = FF893FC517C783420081C192 /* save.png */; };
+		FF8C182817C63E8900C26078 /* SecurityQuestionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8C182617C63E8900C26078 /* SecurityQuestionsViewController.m */; };
+		FF8C182917C63E8900C26078 /* SecurityQuestionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF8C182717C63E8900C26078 /* SecurityQuestionsViewController.xib */; };
+		FF8C182C17C65A6800C26078 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF8C182B17C65A6800C26078 /* QuartzCore.framework */; };
+		FF91D06D17CF639C003CCEDD /* CardDetailsTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF91D06C17CF639C003CCEDD /* CardDetailsTableCell.m */; };
+		FF91D06F17CF63CC003CCEDD /* CardDetailsTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF91D06E17CF63CC003CCEDD /* CardDetailsTableCell.xib */; };
+		FF9553FA17CB5631008D41ED /* CardsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9553F817CB5631008D41ED /* CardsViewController.m */; };
+		FF9553FB17CB5631008D41ED /* CardsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF9553F917CB5631008D41ED /* CardsViewController.xib */; };
+		FF9553FE17CB957A008D41ED /* 00029.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF9553FD17CB957A008D41ED /* 00029.jpg */; };
+		FF9645A817BA4052002D6FD2 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9645A617BA4052002D6FD2 /* TableViewController.m */; };
+		FF9645A917BA4052002D6FD2 /* TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF9645A717BA4052002D6FD2 /* TableViewController.xib */; };
+		FF9645AD17BA4097002D6FD2 /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9645AB17BA4097002D6FD2 /* AddViewController.m */; };
+		FF9645AE17BA4097002D6FD2 /* AddViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF9645AC17BA4097002D6FD2 /* AddViewController.xib */; };
+		FF9887F917BE0228008F7642 /* SubDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9887F717BE0228008F7642 /* SubDetailTableViewController.m */; };
+		FF9887FA17BE0228008F7642 /* SubDetailTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF9887F817BE0228008F7642 /* SubDetailTableViewController.xib */; };
+		FF9887FE17BE0244008F7642 /* DetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9887FC17BE0244008F7642 /* DetailTableViewController.m */; };
+		FF9887FF17BE0244008F7642 /* DetailTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF9887FD17BE0244008F7642 /* DetailTableViewController.xib */; };
+		FF999A0E17CC91570033D336 /* ModelClass.m in Sources */ = {isa = PBXBuildFile; fileRef = FF999A0D17CC91570033D336 /* ModelClass.m */; };
+		FF999A1117CCD83C0033D336 /* QuestionsTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF999A1017CCD83C0033D336 /* QuestionsTableCell.m */; };
+		FF999A1317CCD8630033D336 /* QuestionsTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF999A1217CCD8630033D336 /* QuestionsTableCell.xib */; };
+		FF999D5E17B8DD4500843CEE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF999D5D17B8DD4500843CEE /* UIKit.framework */; };
+		FF999D6017B8DD4500843CEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF999D5F17B8DD4500843CEE /* Foundation.framework */; };
+		FF999D6217B8DD4500843CEE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF999D6117B8DD4500843CEE /* CoreGraphics.framework */; };
+		FF999D6817B8DD4500843CEE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF999D6617B8DD4500843CEE /* InfoPlist.strings */; };
+		FF999D6A17B8DD4500843CEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF999D6917B8DD4500843CEE /* main.m */; };
+		FF999D6E17B8DD4500843CEE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF999D6D17B8DD4500843CEE /* AppDelegate.m */; };
+		FF999D7017B8DD4500843CEE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FF999D6F17B8DD4500843CEE /* Default.png */; };
+		FF999D7217B8DD4500843CEE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF999D7117B8DD4500843CEE /* Default@2x.png */; };
+		FF999D7417B8DD4500843CEE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF999D7317B8DD4500843CEE /* Default-568h@2x.png */; };
+		FF999D8217B8E6DB00843CEE /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FF999D8117B8E6DB00843CEE /* libsqlite3.0.dylib */; };
+		FF999D8417B8EBBA00843CEE /* MyCredentialsDB.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = FF999D8317B8EA6F00843CEE /* MyCredentialsDB.sqlite */; };
+		FF999D8817B8F0AF00843CEE /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF999D8617B8F0AF00843CEE /* ListViewController.m */; };
+		FF999D8917B8F0AF00843CEE /* ListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF999D8717B8F0AF00843CEE /* ListViewController.xib */; };
+		FFA2731917D4579900382C7A /* KKKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA2731117D4579900382C7A /* KKKeychain.m */; };
+		FFA2731A17D4579900382C7A /* KKPasscodeLock.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FFA2731217D4579900382C7A /* KKPasscodeLock.bundle */; };
+		FFA2731B17D4579900382C7A /* KKPasscodeLock.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA2731417D4579900382C7A /* KKPasscodeLock.m */; };
+		FFA2731C17D4579900382C7A /* KKPasscodeSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA2731617D4579900382C7A /* KKPasscodeSettingsViewController.m */; };
+		FFA2731D17D4579900382C7A /* KKPasscodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA2731817D4579900382C7A /* KKPasscodeViewController.m */; };
+		FFA2731F17D4599200382C7A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA2731E17D4599200382C7A /* AudioToolbox.framework */; };
+		FFA2732117D4599A00382C7A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA2732017D4599A00382C7A /* Security.framework */; };
+		FFA2732617D45AF000382C7A /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA2732417D45AF000382C7A /* SettingsViewController.m */; };
+		FFA2732717D45AF000382C7A /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFA2732517D45AF000382C7A /* SettingsViewController.xib */; };
+		FFA2732917D4656200382C7A /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA2732817D4656200382C7A /* MessageUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FF893FC517C783420081C192 /* save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = save.png; sourceTree = "<group>"; };
+		FF8C182517C63E8900C26078 /* SecurityQuestionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecurityQuestionsViewController.h; sourceTree = "<group>"; };
+		FF8C182617C63E8900C26078 /* SecurityQuestionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecurityQuestionsViewController.m; sourceTree = "<group>"; };
+		FF8C182717C63E8900C26078 /* SecurityQuestionsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecurityQuestionsViewController.xib; sourceTree = "<group>"; };
+		FF8C182B17C65A6800C26078 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FF91D06B17CF639C003CCEDD /* CardDetailsTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardDetailsTableCell.h; sourceTree = "<group>"; };
+		FF91D06C17CF639C003CCEDD /* CardDetailsTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardDetailsTableCell.m; sourceTree = "<group>"; };
+		FF91D06E17CF63CC003CCEDD /* CardDetailsTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardDetailsTableCell.xib; sourceTree = "<group>"; };
+		FF9553F717CB5631008D41ED /* CardsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardsViewController.h; sourceTree = "<group>"; };
+		FF9553F817CB5631008D41ED /* CardsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardsViewController.m; sourceTree = "<group>"; };
+		FF9553F917CB5631008D41ED /* CardsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardsViewController.xib; sourceTree = "<group>"; };
+		FF9553FD17CB957A008D41ED /* 00029.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 00029.jpg; sourceTree = "<group>"; };
+		FF9645A517BA4052002D6FD2 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		FF9645A617BA4052002D6FD2 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		FF9645A717BA4052002D6FD2 /* TableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewController.xib; sourceTree = "<group>"; };
+		FF9645AA17BA4097002D6FD2 /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		FF9645AB17BA4097002D6FD2 /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
+		FF9645AC17BA4097002D6FD2 /* AddViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddViewController.xib; sourceTree = "<group>"; };
+		FF9887F617BE0228008F7642 /* SubDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubDetailTableViewController.h; sourceTree = "<group>"; };
+		FF9887F717BE0228008F7642 /* SubDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubDetailTableViewController.m; sourceTree = "<group>"; };
+		FF9887F817BE0228008F7642 /* SubDetailTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SubDetailTableViewController.xib; sourceTree = "<group>"; };
+		FF9887FB17BE0244008F7642 /* DetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailTableViewController.h; sourceTree = "<group>"; };
+		FF9887FC17BE0244008F7642 /* DetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailTableViewController.m; sourceTree = "<group>"; };
+		FF9887FD17BE0244008F7642 /* DetailTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailTableViewController.xib; sourceTree = "<group>"; };
+		FF999A0C17CC91570033D336 /* ModelClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelClass.h; sourceTree = "<group>"; };
+		FF999A0D17CC91570033D336 /* ModelClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelClass.m; sourceTree = "<group>"; };
+		FF999A0F17CCD83C0033D336 /* QuestionsTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionsTableCell.h; sourceTree = "<group>"; };
+		FF999A1017CCD83C0033D336 /* QuestionsTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionsTableCell.m; sourceTree = "<group>"; };
+		FF999A1217CCD8630033D336 /* QuestionsTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuestionsTableCell.xib; sourceTree = "<group>"; };
+		FF999D5A17B8DD4500843CEE /* MyCredentials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCredentials.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF999D5D17B8DD4500843CEE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FF999D5F17B8DD4500843CEE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FF999D6117B8DD4500843CEE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FF999D6517B8DD4500843CEE /* MyCredentials-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyCredentials-Info.plist"; sourceTree = "<group>"; };
+		FF999D6717B8DD4500843CEE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FF999D6917B8DD4500843CEE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF999D6B17B8DD4500843CEE /* MyCredentials-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyCredentials-Prefix.pch"; sourceTree = "<group>"; };
+		FF999D6C17B8DD4500843CEE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF999D6D17B8DD4500843CEE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF999D6F17B8DD4500843CEE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FF999D7117B8DD4500843CEE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FF999D7317B8DD4500843CEE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FF999D8117B8E6DB00843CEE /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		FF999D8317B8EA6F00843CEE /* MyCredentialsDB.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = MyCredentialsDB.sqlite; sourceTree = "<group>"; };
+		FF999D8517B8F0AF00843CEE /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		FF999D8617B8F0AF00843CEE /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		FF999D8717B8F0AF00843CEE /* ListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListViewController.xib; sourceTree = "<group>"; };
+		FFA2731017D4579900382C7A /* KKKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKKeychain.h; sourceTree = "<group>"; };
+		FFA2731117D4579900382C7A /* KKKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKKeychain.m; sourceTree = "<group>"; };
+		FFA2731217D4579900382C7A /* KKPasscodeLock.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = KKPasscodeLock.bundle; sourceTree = "<group>"; };
+		FFA2731317D4579900382C7A /* KKPasscodeLock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKPasscodeLock.h; sourceTree = "<group>"; };
+		FFA2731417D4579900382C7A /* KKPasscodeLock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKPasscodeLock.m; sourceTree = "<group>"; };
+		FFA2731517D4579900382C7A /* KKPasscodeSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKPasscodeSettingsViewController.h; sourceTree = "<group>"; };
+		FFA2731617D4579900382C7A /* KKPasscodeSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKPasscodeSettingsViewController.m; sourceTree = "<group>"; };
+		FFA2731717D4579900382C7A /* KKPasscodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKPasscodeViewController.h; sourceTree = "<group>"; };
+		FFA2731817D4579900382C7A /* KKPasscodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKPasscodeViewController.m; sourceTree = "<group>"; };
+		FFA2731E17D4599200382C7A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		FFA2732017D4599A00382C7A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		FFA2732317D45AF000382C7A /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		FFA2732417D45AF000382C7A /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		FFA2732517D45AF000382C7A /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		FFA2732817D4656200382C7A /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF999D5717B8DD4500843CEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFA2732917D4656200382C7A /* MessageUI.framework in Frameworks */,
+				FFA2732117D4599A00382C7A /* Security.framework in Frameworks */,
+				FFA2731F17D4599200382C7A /* AudioToolbox.framework in Frameworks */,
+				FF8C182C17C65A6800C26078 /* QuartzCore.framework in Frameworks */,
+				FF999D8217B8E6DB00843CEE /* libsqlite3.0.dylib in Frameworks */,
+				FF999D5E17B8DD4500843CEE /* UIKit.framework in Frameworks */,
+				FF999D6017B8DD4500843CEE /* Foundation.framework in Frameworks */,
+				FF999D6217B8DD4500843CEE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF8C182A17C63E9000C26078 /* SecurityQuestions */ = {
+			isa = PBXGroup;
+			children = (
+				FF8C182517C63E8900C26078 /* SecurityQuestionsViewController.h */,
+				FF8C182617C63E8900C26078 /* SecurityQuestionsViewController.m */,
+				FF8C182717C63E8900C26078 /* SecurityQuestionsViewController.xib */,
+			);
+			name = SecurityQuestions;
+			sourceTree = "<group>";
+		};
+		FF9553FC17CB5638008D41ED /* CardDetails */ = {
+			isa = PBXGroup;
+			children = (
+				FF9553F717CB5631008D41ED /* CardsViewController.h */,
+				FF9553F817CB5631008D41ED /* CardsViewController.m */,
+				FF9553F917CB5631008D41ED /* CardsViewController.xib */,
+			);
+			name = CardDetails;
+			sourceTree = "<group>";
+		};
+		FF9887F317BE00C9008F7642 /* DetailTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FF9887FB17BE0244008F7642 /* DetailTableViewController.h */,
+				FF9887FC17BE0244008F7642 /* DetailTableViewController.m */,
+				FF9887FD17BE0244008F7642 /* DetailTableViewController.xib */,
+				FF9887F517BE0160008F7642 /* SubDetailTableViewController */,
+			);
+			name = DetailTableViewController;
+			sourceTree = "<group>";
+		};
+		FF9887F417BE0119008F7642 /* PersonalNotes */ = {
+			isa = PBXGroup;
+			children = (
+				FF9645AA17BA4097002D6FD2 /* AddViewController.h */,
+				FF9645AB17BA4097002D6FD2 /* AddViewController.m */,
+				FF9645AC17BA4097002D6FD2 /* AddViewController.xib */,
+				FF9645A517BA4052002D6FD2 /* TableViewController.h */,
+				FF9645A617BA4052002D6FD2 /* TableViewController.m */,
+				FF9645A717BA4052002D6FD2 /* TableViewController.xib */,
+			);
+			name = PersonalNotes;
+			sourceTree = "<group>";
+		};
+		FF9887F517BE0160008F7642 /* SubDetailTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FF9887F617BE0228008F7642 /* SubDetailTableViewController.h */,
+				FF9887F717BE0228008F7642 /* SubDetailTableViewController.m */,
+				FF9887F817BE0228008F7642 /* SubDetailTableViewController.xib */,
+				FF999A0F17CCD83C0033D336 /* QuestionsTableCell.h */,
+				FF999A1017CCD83C0033D336 /* QuestionsTableCell.m */,
+				FF91D06B17CF639C003CCEDD /* CardDetailsTableCell.h */,
+				FF91D06C17CF639C003CCEDD /* CardDetailsTableCell.m */,
+				FF999A1217CCD8630033D336 /* QuestionsTableCell.xib */,
+				FF91D06E17CF63CC003CCEDD /* CardDetailsTableCell.xib */,
+			);
+			name = SubDetailTableViewController;
+			sourceTree = "<group>";
+		};
+		FF999A0B17CC8B440033D336 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FF999A0C17CC91570033D336 /* ModelClass.h */,
+				FF999A0D17CC91570033D336 /* ModelClass.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		FF999D5117B8DD4500843CEE = {
+			isa = PBXGroup;
+			children = (
+				FF999D6317B8DD4500843CEE /* MyCredentials */,
+				FF999D5C17B8DD4500843CEE /* Frameworks */,
+				FF999D5B17B8DD4500843CEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF999D5B17B8DD4500843CEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF999D5A17B8DD4500843CEE /* MyCredentials.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF999D5C17B8DD4500843CEE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF999D8117B8E6DB00843CEE /* libsqlite3.0.dylib */,
+				FFA2732817D4656200382C7A /* MessageUI.framework */,
+				FFA2732017D4599A00382C7A /* Security.framework */,
+				FFA2731E17D4599200382C7A /* AudioToolbox.framework */,
+				FF8C182B17C65A6800C26078 /* QuartzCore.framework */,
+				FF999D5D17B8DD4500843CEE /* UIKit.framework */,
+				FF999D5F17B8DD4500843CEE /* Foundation.framework */,
+				FF999D6117B8DD4500843CEE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF999D6317B8DD4500843CEE /* MyCredentials */ = {
+			isa = PBXGroup;
+			children = (
+				FFA2730F17D4579900382C7A /* src */,
+				FF999D6C17B8DD4500843CEE /* AppDelegate.h */,
+				FF999D6D17B8DD4500843CEE /* AppDelegate.m */,
+				FF999A0B17CC8B440033D336 /* Models */,
+				FF999D8A17B8F0B700843CEE /* ListScreen */,
+				FF9553FC17CB5638008D41ED /* CardDetails */,
+				FF8C182A17C63E9000C26078 /* SecurityQuestions */,
+				FF9887F417BE0119008F7642 /* PersonalNotes */,
+				FF9887F317BE00C9008F7642 /* DetailTableViewController */,
+				FF999D6417B8DD4500843CEE /* Supporting Files */,
+			);
+			path = MyCredentials;
+			sourceTree = "<group>";
+		};
+		FF999D6417B8DD4500843CEE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF893FC517C783420081C192 /* save.png */,
+				FF9553FD17CB957A008D41ED /* 00029.jpg */,
+				FF999D6517B8DD4500843CEE /* MyCredentials-Info.plist */,
+				FF999D6617B8DD4500843CEE /* InfoPlist.strings */,
+				FF999D6917B8DD4500843CEE /* main.m */,
+				FF999D6B17B8DD4500843CEE /* MyCredentials-Prefix.pch */,
+				FF999D8317B8EA6F00843CEE /* MyCredentialsDB.sqlite */,
+				FF999D6F17B8DD4500843CEE /* Default.png */,
+				FF999D7117B8DD4500843CEE /* Default@2x.png */,
+				FF999D7317B8DD4500843CEE /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF999D8A17B8F0B700843CEE /* ListScreen */ = {
+			isa = PBXGroup;
+			children = (
+				FF999D8517B8F0AF00843CEE /* ListViewController.h */,
+				FF999D8617B8F0AF00843CEE /* ListViewController.m */,
+				FF999D8717B8F0AF00843CEE /* ListViewController.xib */,
+			);
+			name = ListScreen;
+			sourceTree = "<group>";
+		};
+		FFA2730F17D4579900382C7A /* src */ = {
+			isa = PBXGroup;
+			children = (
+				FFA2732217D45ADA00382C7A /* Settings */,
+				FFA2731217D4579900382C7A /* KKPasscodeLock.bundle */,
+				FFA2731017D4579900382C7A /* KKKeychain.h */,
+				FFA2731117D4579900382C7A /* KKKeychain.m */,
+				FFA2731317D4579900382C7A /* KKPasscodeLock.h */,
+				FFA2731417D4579900382C7A /* KKPasscodeLock.m */,
+				FFA2731517D4579900382C7A /* KKPasscodeSettingsViewController.h */,
+				FFA2731617D4579900382C7A /* KKPasscodeSettingsViewController.m */,
+				FFA2731717D4579900382C7A /* KKPasscodeViewController.h */,
+				FFA2731817D4579900382C7A /* KKPasscodeViewController.m */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		FFA2732217D45ADA00382C7A /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				FFA2732317D45AF000382C7A /* SettingsViewController.h */,
+				FFA2732417D45AF000382C7A /* SettingsViewController.m */,
+				FFA2732517D45AF000382C7A /* SettingsViewController.xib */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF999D5917B8DD4500843CEE /* MyCredentials */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF999D7D17B8DD4600843CEE /* Build configuration list for PBXNativeTarget "MyCredentials" */;
+			buildPhases = (
+				FF999D5617B8DD4500843CEE /* Sources */,
+				FF999D5717B8DD4500843CEE /* Frameworks */,
+				FF999D5817B8DD4500843CEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyCredentials;
+			productName = MyCredentials;
+			productReference = FF999D5A17B8DD4500843CEE /* MyCredentials.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF999D5217B8DD4500843CEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Adroitent;
+				TargetAttributes = {
+					FF999D5917B8DD4500843CEE = {
+						DevelopmentTeam = V45F7G2ZSX;
+					};
+				};
+			};
+			buildConfigurationList = FF999D5517B8DD4500843CEE /* Build configuration list for PBXProject "MyCredentials" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FF999D5117B8DD4500843CEE;
+			productRefGroup = FF999D5B17B8DD4500843CEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF999D5917B8DD4500843CEE /* MyCredentials */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF999D5817B8DD4500843CEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF999D6817B8DD4500843CEE /* InfoPlist.strings in Resources */,
+				FF999D7017B8DD4500843CEE /* Default.png in Resources */,
+				FF999D7217B8DD4500843CEE /* Default@2x.png in Resources */,
+				FF999D7417B8DD4500843CEE /* Default-568h@2x.png in Resources */,
+				FF999D8417B8EBBA00843CEE /* MyCredentialsDB.sqlite in Resources */,
+				FF999D8917B8F0AF00843CEE /* ListViewController.xib in Resources */,
+				FF9645A917BA4052002D6FD2 /* TableViewController.xib in Resources */,
+				FF9645AE17BA4097002D6FD2 /* AddViewController.xib in Resources */,
+				FF9887FA17BE0228008F7642 /* SubDetailTableViewController.xib in Resources */,
+				FF9887FF17BE0244008F7642 /* DetailTableViewController.xib in Resources */,
+				FF8C182917C63E8900C26078 /* SecurityQuestionsViewController.xib in Resources */,
+				FF893FC617C783420081C192 /* save.png in Resources */,
+				FF9553FB17CB5631008D41ED /* CardsViewController.xib in Resources */,
+				FF9553FE17CB957A008D41ED /* 00029.jpg in Resources */,
+				FF999A1317CCD8630033D336 /* QuestionsTableCell.xib in Resources */,
+				FF91D06F17CF63CC003CCEDD /* CardDetailsTableCell.xib in Resources */,
+				FFA2731A17D4579900382C7A /* KKPasscodeLock.bundle in Resources */,
+				FFA2732717D45AF000382C7A /* SettingsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF999D5617B8DD4500843CEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF999D6A17B8DD4500843CEE /* main.m in Sources */,
+				FF999D6E17B8DD4500843CEE /* AppDelegate.m in Sources */,
+				FF999D8817B8F0AF00843CEE /* ListViewController.m in Sources */,
+				FF9645A817BA4052002D6FD2 /* TableViewController.m in Sources */,
+				FF9645AD17BA4097002D6FD2 /* AddViewController.m in Sources */,
+				FF9887F917BE0228008F7642 /* SubDetailTableViewController.m in Sources */,
+				FF9887FE17BE0244008F7642 /* DetailTableViewController.m in Sources */,
+				FF8C182817C63E8900C26078 /* SecurityQuestionsViewController.m in Sources */,
+				FF9553FA17CB5631008D41ED /* CardsViewController.m in Sources */,
+				FF999A0E17CC91570033D336 /* ModelClass.m in Sources */,
+				FF999A1117CCD83C0033D336 /* QuestionsTableCell.m in Sources */,
+				FF91D06D17CF639C003CCEDD /* CardDetailsTableCell.m in Sources */,
+				FFA2731917D4579900382C7A /* KKKeychain.m in Sources */,
+				FFA2731B17D4579900382C7A /* KKPasscodeLock.m in Sources */,
+				FFA2731C17D4579900382C7A /* KKPasscodeSettingsViewController.m in Sources */,
+				FFA2731D17D4579900382C7A /* KKPasscodeViewController.m in Sources */,
+				FFA2732617D45AF000382C7A /* SettingsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FF999D6617B8DD4500843CEE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF999D6717B8DD4500843CEE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF999D7B17B8DD4600843CEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF999D7C17B8DD4600843CEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF999D7E17B8DD4600843CEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ravi Surathu (HJD5E9GNT7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ravi Surathu (HJD5E9GNT7)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyCredentials/MyCredentials-Prefix.pch";
+				INFOPLIST_FILE = "MyCredentials/MyCredentials-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c98a6103-63a8-4bea-9543-3f977ed07d6c";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "c98a6103-63a8-4bea-9543-3f977ed07d6c";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FF999D7F17B8DD4600843CEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ravi Surathu (HJD5E9GNT7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ravi Surathu (HJD5E9GNT7)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyCredentials/MyCredentials-Prefix.pch";
+				INFOPLIST_FILE = "MyCredentials/MyCredentials-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c98a6103-63a8-4bea-9543-3f977ed07d6c";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "c98a6103-63a8-4bea-9543-3f977ed07d6c";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF999D5517B8DD4500843CEE /* Build configuration list for PBXProject "MyCredentials" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF999D7B17B8DD4600843CEE /* Debug */,
+				FF999D7C17B8DD4600843CEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF999D7D17B8DD4600843CEE /* Build configuration list for PBXNativeTarget "MyCredentials" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF999D7E17B8DD4600843CEE /* Debug */,
+				FF999D7F17B8DD4600843CEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF999D5217B8DD4500843CEE /* Project object */;
+}
